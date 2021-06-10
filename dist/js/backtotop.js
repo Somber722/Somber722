@@ -1,0 +1,1 @@
+!function(){var n,o=document.getElementById("backtotop");o.onclick=function(){clearInterval(n),n=setInterval(function(){document.documentElement.scrollTop-=100,document.documentElement.scrollTop<=0&&clearInterval(n)},20)},window.onscroll=function(){var n=document.documentElement.scrollTop||window.scrollY;o.style.display=0==n?"none":"block"}}();
